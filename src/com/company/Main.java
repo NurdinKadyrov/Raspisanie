@@ -1,10 +1,6 @@
 package com.company;
-
 import java.util.Random;
-import java.util.Scanner;
-
 public class Main {
-
     public static void main(String[] args) {
         int udacha = 0;
         int neUdachnyi = 0;
@@ -36,7 +32,6 @@ public class Main {
                 System.out.println(words[7]);
                 udacha++;
             }
-
         } else if (a == 2) {
             System.out.println(words[2]);
             udacha++;
@@ -100,7 +95,6 @@ public class Main {
         System.out.println("-------------------------------------------------------------------");
         System.out.println("       ~  Konetc dnya  ~     ");
         System.out.println();
-
         System.out.println("~  Udachnye sobytie : (" + udacha + ")");
         System.out.println("~  Neudachnoe sobytie : (" + neUdachnyi + ")");
         System.out.println("~  Neitralnoe sobytie : (" + neitral + ")");
